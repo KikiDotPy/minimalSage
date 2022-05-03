@@ -1610,6 +1610,19 @@ input, select, textarea {
 		padding: 0.7em 1.5em 0.7em 1.5em;
 	}
 
+	#touch {
+		background-color: #91C7B1;
+		border-radius: 2em;
+		text-decoration: none;
+		font-size: 0.75em;
+		font-weight: 800;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	#touch:hover {
+		background-color: rgba(145,199,177, 0.5);
+	}
+
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
