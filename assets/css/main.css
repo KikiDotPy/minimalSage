@@ -1617,6 +1617,7 @@ input, select, textarea {
 		font-size: 0.75em;
 		font-weight: 800;
 		font-family: 'Montserrat', sans-serif;
+		margin-top: 0.75em;
 	}
 
 	#touch:hover {
