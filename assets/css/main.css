@@ -1620,8 +1620,6 @@ input, select, textarea {
 		bottom: 0;
 		border-radius: 34px;
 		background-color: white;
-		-webkit-transition: .4s;
-		transition: .4s;
 	}
 	
 	.slider:before {
