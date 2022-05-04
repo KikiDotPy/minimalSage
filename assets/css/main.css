@@ -1344,6 +1344,15 @@ input, select, textarea {
 		margin-top: 1em !important;
 	}
 
+	.centerYo {
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	#noMargin {
+		margin-bottom: 0;
+	}
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
@@ -1681,6 +1690,11 @@ input, select, textarea {
 
 	.touch:hover {
 		background-color: rgba(145,199,177, 0.5) !important;
+	}
+	
+	#helloCont {
+		padding: 1em 2em 1em 2em;
+		font-size: 1.5em;
 	}
 
 		input[type="button"]:hover,
