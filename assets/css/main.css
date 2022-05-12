@@ -1363,6 +1363,16 @@ input, select, textarea {
 		line-height: 1.4;
 	}
 
+	.twoCol {
+		display: flex;
+		margin-bottom: 1rem;
+		align-items: center;
+	}
+
+	.resizeImg {
+		height: 15rem;
+	}
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
