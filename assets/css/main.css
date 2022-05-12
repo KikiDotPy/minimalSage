@@ -1331,7 +1331,7 @@ input, select, textarea {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 800;
 	}
-
+	
 	#name {
 		 color: #B33951;
 	}
@@ -1351,6 +1351,16 @@ input, select, textarea {
 
 	#noMargin {
 		margin-bottom: 0;
+	}
+
+	.shadowBorder {
+		box-shadow: 2px 2px 3px rgba(84, 73, 75, 0.45);
+		padding: 1em;
+	}
+
+	.compactText {
+		font-size: .95rem;
+		line-height: 1.4;
 	}
 
 		@media screen and (max-width: 1680px) {
