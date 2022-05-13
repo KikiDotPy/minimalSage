@@ -1792,6 +1792,10 @@ input, select, textarea {
 		font-size: 1.75em;
 	}
 
+	#horiLi .icon {
+		color: #E3D081 !important;
+	}
+
 	#horiLi .icon:hover {
 		opacity: 0.50;
 		-moz-transition: opacity .25s ease-in-out;
@@ -1836,7 +1840,7 @@ input, select, textarea {
 		text-decoration: none;
 		position: relative;
 		text-decoration: none;
-		color: #E3D081 !important;
+		color: #54494B !important;
 	}
 
 		.icon:before {
