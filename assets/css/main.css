@@ -1366,7 +1366,6 @@ input, select, textarea {
 	.twoCol {
 		display: flex;
 		margin-bottom: 1rem;
-		align-items: center;
 	}
 
 	.resizeImg {
@@ -1784,7 +1783,7 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
-	#horiLi.copyright li {
+	#contactIcon.copyright li {
 		display: inline-block;
 		padding-left: 1em;
 		margin-left: 1em;
@@ -1792,11 +1791,11 @@ input, select, textarea {
 		font-size: 1.75em;
 	}
 
-	#horiLi .icon {
+	#contactIcon .icon {
 		color: #E3D081 !important;
 	}
 
-	#horiLi .icon:hover {
+	#contactIcon .icon:hover {
 		opacity: 0.50;
 		-moz-transition: opacity .25s ease-in-out;
 		-webkit-transition: opacity .25s ease-in-out;
@@ -1841,6 +1840,10 @@ input, select, textarea {
 		position: relative;
 		text-decoration: none;
 		color: #54494B !important;
+	}
+
+	span#yellowArrow {
+		color: #E3D081 !important;
 	}
 
 		.icon:before {
