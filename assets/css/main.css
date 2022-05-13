@@ -1369,7 +1369,14 @@ input, select, textarea {
 	}
 
 	.resizeImg {
-		height: 15rem;
+		height: 20rem;
+		margin: auto;
+	}
+
+	#aboutQuote {
+		margin: auto;
+		text-align: justify;
+		margin-right: 1.3rem;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1386,6 +1393,15 @@ input, select, textarea {
 				font-size: 14pt;
 			}
 
+			.resizeImg {
+				height: 26rem;
+			}
+
+			.twoCol {
+				flex-direction: column;
+			}
+
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1394,12 +1410,22 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.resizeImg {
+				height: 15rem;
+				margin: 1%;
+			}
+
 		}
 
 		@media screen and (max-width: 360px) {
 
 			body, input, textarea, select {
 				font-size: 11pt;
+			}
+
+			.resizeImg {
+				height: 12rem;
+				margin: 1%;
 			}
 
 		}
