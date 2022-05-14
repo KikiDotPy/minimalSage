@@ -1386,9 +1386,12 @@ input, select, textarea {
 	#aboutInvite {
 		color: #B33951;
 	}
+	#aboutList li {
+		margin: 1% 0;
+	}
 
 	#aboutList {
-		
+		list-style: square outside;		
 	}
 
 		@media screen and (max-width: 1680px) {
