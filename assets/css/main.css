@@ -1353,6 +1353,8 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+	/* About me page */
+
 	.shadowBorder {
 		box-shadow: 2px 2px 3px rgba(84, 73, 75, 0.45);
 		padding: 1em;
@@ -1379,6 +1381,14 @@ input, select, textarea {
 		margin: auto;
 		text-align: justify;
 		margin-right: 1.3rem;
+	}
+
+	#aboutInvite {
+		color: #B33951;
+	}
+
+	#aboutList {
+		
 	}
 
 		@media screen and (max-width: 1680px) {
