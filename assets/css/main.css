@@ -1396,13 +1396,8 @@ input, select, textarea {
 			}
 
 			.resizeImg {
-				height: 26rem;
+				height: 16rem;
 			}
-
-			.twoCol {
-				flex-direction: column;
-			}
-
 
 		}
 
@@ -1413,8 +1408,13 @@ input, select, textarea {
 			}
 
 			.resizeImg {
-				height: 15rem;
-				margin: 1%;
+				width: 26rem;
+				text-align: center;
+				margin: auto;
+			}
+
+			.twoCol {
+				flex-direction: column;
 			}
 
 		}
